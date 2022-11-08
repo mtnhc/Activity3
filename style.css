@@ -1,0 +1,44 @@
+body {
+ background-image: url('Pictures/background.jpg');
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: 100% 100%;
+}
+
+button {
+ background: none;
+ color: #ccc;
+ width: 200px;
+ height: 55px;
+ border: 1px solid #FFFDD0;
+ font-size: 18px;
+ border-radius: 4px;
+ text-shadow: 2px 2px #000000
+}
+
+button:hover {
+ background: #ffffff;
+ cursor: pointer;
+ text-shadow: 2px 2px #ffffff;
+}
+
+h1 {
+ color: #ffffff;
+ text-shadow: 2px 2px 8px #000000
+}
+
+a {
+ text-decoration: none;
+}
+
+a:link {
+ color: #ccc;
+}
+
+a:visited {
+ color: #ccc;
+}
+
+a:active {
+ color: #ccc;
+}
